@@ -127,3 +127,18 @@ A - Online Ordering - given the timescale for the project, technical complexity 
     - Privacy Policy
     - Cookies Policy
 
+
+## Structure
+
+From the above information I have decided on the following below:-
+
+- Multiple page site using a family tree structure.
+- Header/Navigation
+    - Where appropriate(mobile, tablet) a Hamburger icon will be used to allow navigation.
+- Seperate pages 
+    - For external pages/documents will use target=_blank.
+    - Will utilize the header/navigation on the about page across all pages.
+- Menus 
+    - Dropdown with links to their downloadable menus  will be appropriate.
+- Footer 
+    - Social media icons will open in a new window.
