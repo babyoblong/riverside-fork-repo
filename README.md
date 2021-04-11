@@ -102,3 +102,28 @@ B - Google Maps location whilst it isn't critical, as we could use an address in
 
 A - Online Ordering - given the timescale for the project, technical complexity I feel this isn't feasible at this stage. 
 
+
+
+## Scope
+
+- What they say they need?
+    - The client wants a professional, mobile-friendly, clean site which would start their journey into the online business space. 
+    - The client wants to add social media to their site via a link.
+    - The client wants a menu/product page - this is vital.
+    - The client wants to be able to be contaced by the user using a form.
+    - Finally, the client wants to allow online ordering to increase sales. Given the timescale and the complexity of the job which is beyond the scope of the MS1 project, this would have to be added in a later release.
+
+- What they actually need?
+    - Riverside Coffeehouse will benefit from having a mobile-first site.
+    - An introduction portion to the Coffeehouse will also be needed to address User Goals.
+    - The client wants a menu/product, so they will need downloadable menus.
+    - The client will need social media icons to link to their social media site. 
+    - The client needs a contact form to better connect with users.
+
+- What they don't know they need?
+
+    - Opening times
+    - Food Hygiene Ratings
+    - Privacy Policy
+    - Cookies Policy
+
