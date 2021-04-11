@@ -1,0 +1,30 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap');
+
+/* Body */
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* Navbar */
+
+.navbar-dark .navbar-brand .navbar-brand-text {
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    transition: 0.5s;
+    background-color: #E4572E;
+}
+
+/* Colors */
+
+.bg--color--blue {
+    background-color: #222E50;
+}
