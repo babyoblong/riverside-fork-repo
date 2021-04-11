@@ -1,45 +1,104 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Riverside Coffeehouse - Milestone Project
 
-Welcome USER_NAME,
+Introduction
+==
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+NOTE: **_The Riverside Coffeehouse does not exist._**
 
-## Gitpod Reminders
+Welcome to my first milestone project, Riverside Coffeehouse.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The justification for this project is to show what I have learned so far.
 
-`python3 -m http.server`
+During the course of the Milestone Project I will define ths steps, technologies and resources I have used to build the project. All the while keeping focus on the User Centered Design process.
 
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+[View the Live Project Here](#)
 
 ---
 
-Happy coding!
+## User Experience Design
+
+
+
+Part of the User Centric Frontend course touches upon Jesse James Garrett's, "The Elements of User Experience". Originally intended for the web, the strategies outlined in his book "The Elements of User Experience" were adapted in other fields like software development and industrial design.
+
+Our goals as a developer are to get the balance right between User Needs/Goals and Business Needs/Goals. We can do this by following Jesse's five-plane model.
+
+
+1. Strategy  
+2. Scope
+3. Structure
+4. Skeleton
+5. Surface
+
+---
+## Strategy 
+---
+
+### Goals of the site
+
+* Be informative
+* Be accessible
+* Be clean, simple & effective
+* Be an online representation of the Riverside Coffeehouse
+* Demographic - teens, students, adults & familes
+
+### Demographic
+
+Riverside Coffeehouse has a wide audience and want to target the site towards adults, teenagers and families. With this being such a wide audience I thought it best to include certain features that are at the Coffeehouse. 
+
+Teenagers are socially driven, so having a social media presence is considered essential if we are to attract their attention. The ability to check-in to a location will hopefully increase footfall. Advertising Free Wi-fi is also more likely to entice teenagers.
+
+Students are always on the look out for cheap deals. Incentives such as discounts via the NUS card are always welcomed. Advertising this in the site will likely increase footfall from this demographic.
+
+Adults see a coffee-shop as a flexible work location, a relaxed social space and even a quality time with a book. We aim to target this demographic with the advertisement of quieter spaces on-site and study corners.
+
+Families, as the father of two very hungry, almost teenagers we are constantly looking out for Kids Eat Free promotions/offers. Informing potential customers that this is available will likely draw in this demographic.
+
+
+### User Stories
+
+First Time Visitor Goals
+
+- As a first-time visitor I want to be able to understand what the purpose of the site is.
+- As a first-time visitor I want to be able to navigate easily without confusion.
+- As a first-time visitor I want to be able view some products.
+- As a first-time visitor I want to be able to view location information/opening times.
+
+Returning Visitor Goals 
+
+- As a returning-visitor I want to be able to get in contact with the owners of the business using both contact forms and external social media.
+- As a returning-visitor I want to be able to access a downloadable menu.
+
+
+### Business Goals
+
+- The business wants to be seen as having an online presence.
+- The business wants to promote their range of products.
+- The business wants to be able to be contacted easily.
+- The business wants to be able to receive orders online.
+- The business wants social media interaction.
+
+
+Using the site goals, user stories & business goals defined above I am able to gain a better picture/understanding of what is needed to create a well balanced user centric site.
+
+### Strategy Trade offs
+
+Taking all of the above into consideration I can move onto creating a feasibility/viability study. What features can we include? What just isn't quite possible yet?
+
+| Opportunity / Problem / Feature        | Importance  | Viability/Feasibility |
+| -------------                          |:---:        | -----:    |
+| A. Online Ordering                        | 3           |   1       |
+| B. Google Maps Location                   | 3           |   5       |
+| C. Contact Form                           | 4           |   5       |
+| D. Menu/Product Page(images )             | 5           |   5       |
+| E. Social Media                           | 4           |   5       |            
+### Order of priority/feasibility:-
+
+D - Menu/Product Page is critical for the business and user. It is also viable from a developer perspective.
+
+C, E - Contact Form and Social media are both viable and important from a business perspective/user perspective.
+
+B - Google Maps location whilst it isn't critical, as we could use an address instead of a map, it is however viable so likely to be included.
+
+A - Online Ordering - given the timescale for the project, technical complexity I feel this isn't feasible at this stage. 
+
