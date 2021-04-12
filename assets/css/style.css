@@ -5,11 +5,11 @@
 body {
     font-family: 'Oswald', sans-serif;
     color: white;
-    background-color: #fff;
-
+    background-color: #222E50;
 }
 
 /* Navbar */
+
 .navbar-dark .navbar-brand .navbar-brand-text {
     text-decoration: underline;
     font-size: 1.5rem;
@@ -54,4 +54,21 @@ body {
     color: #fff;
 }
 
-/* Utility */
+/* Utilities */
+
+
+.horizontal-rule {
+    border: 1px solid #d0ab5c;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+/* Images */
+.img-thumbnail {
+    padding: .15rem;
+    background-color: #ffffff;
+    border: none;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
