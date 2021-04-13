@@ -84,15 +84,39 @@ p {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-
-/* Footer */
-
-.footer--color--gold {
+.bg--color--gold {
     background-color: #d0ab5c;
 }
 
 .text--color--white {
     color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    padding-left: 0;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+footer ul li a:hover {
+    color: #d0ab5c;
 }
 
 /* Utilities */
