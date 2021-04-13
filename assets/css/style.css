@@ -1,5 +1,5 @@
 /* Imports */
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap');
 
 /* Body */
 body {
@@ -23,7 +23,7 @@ h6 {
 /* Paragraphs */
 
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Navbar */
