@@ -48,11 +48,12 @@
                             <a class="nav-link" href="#reviews">Reviews</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#location">Location</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+
                     </ul>
                 </div>
         </nav>
@@ -143,14 +144,49 @@
                 </div>
             </div>
     </section>
+    <!-- Location Section -->
+    <section class="container" id="location">
+        <h2>Location</h2>
+        <hr class="horizontal-rule">
+        <div class="row">
+            <div class="col-sm-12">
+                <iframe class="embed-responsive"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3239.3945858645775!2d-1.57757288623127!3d54.962613674493376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1618427633309!5m2!1sen!2suk"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <!-- iFrame -->
+
+    </section>
     <!-- Contact Section -->
     <section class="container" id="contact">
         <div class="row">
             <div class="col-sm-12 col-md-12">
                 <h2>Contact Us</h2>
                 <hr class="horizontal-rule">
+
+                <form action="https://formdump.codeinstitute.net/" method="post">
+                    <div class="form-group">
+                        <label for="emailaddress">Email address</label>
+                        <input type="email" class="form-control" id="emailaddress" name="email"
+                            aria-describedby="emailHelp" placeholder="Enter email" required>
+
+                        <label for="telephonenumber">Mobile Number</label>
+                        <input type="tel" class="form-control" id="telephonenumber" name="number"
+                            aria-describedby="telHelp" placeholder="Enter your telephone number">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your personal details with
+                            anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="question">Question</label>
+                        <textarea class="form-control" id="question" name="question"
+                            placeholder="Please enter your question here and we will get back in touch with you ASAP."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark justify-center">Submit</button>
+                </form>
             </div>
     </section>
+    <!-- Footer -->
     <footer class="footer--color--gold pt-3 pb-5 mt-5">
         <div class="container">
             <div class="row">
