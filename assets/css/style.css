@@ -73,6 +73,21 @@ p {
     display: flex;
 }
 
+/* Boostrap Card Override */
+
+.card {
+    width: 100%;
+    margin-bottom: 2%;
+    background-color: #d0ab5c;
+}
+
+.card .card-title {
+    color: #222E50;
+}
+
+.card .card-text {
+    color: #222E50;
+}
 
 /* Colors */
 
