@@ -162,7 +162,8 @@
                 <h2>Contact Us</h2>
                 <hr class="horizontal-rule">
 
-                <form action="https://formdump.codeinstitute.net/" method="post">
+                <form action="https://formdump.codeinstitute.net/" method="post"
+                    class="form-group col-sm-12 col-md-12 col-lg-8 mx-auto">
                     <div class="form-group">
                         <label for="emailaddress">Email address</label>
                         <input type="email" class="form-control" id="emailaddress" name="email"
@@ -170,7 +171,7 @@
 
                         <label for="telephonenumber">Mobile Number</label>
                         <input type="tel" class="form-control" id="telephonenumber" name="number"
-                            aria-describedby="telHelp" placeholder="Enter your telephone number">
+                            aria-describedby="telHelp" placeholder="Enter your telephone number" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your personal details with
                             anyone
                             else.</small>
@@ -178,9 +179,10 @@
                     <div class="form-group">
                         <label for="question">Question</label>
                         <textarea class="form-control" id="question" name="question"
-                            placeholder="Please enter your question here and we will get back in touch with you ASAP."></textarea>
+                            placeholder="Please enter your question here and we will get back in touch with you ASAP."
+                            required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-dark justify-center">Submit</button>
+                    <button type="submit" class="btn btn-dark btn-block">Submit</button>
                 </form>
             </div>
     </section>
