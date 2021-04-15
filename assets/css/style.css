@@ -77,6 +77,13 @@ p {
     display: flex;
 }
 
+
+/* Contact Section */
+
+#contact {
+    margin-top: 10px;
+}
+
 /* Boostrap Card Override */
 
 .card {
