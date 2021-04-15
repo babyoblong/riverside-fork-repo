@@ -33,6 +33,10 @@ p {
     font-size: 1.5rem;
 }
 
+.navbar-brand {
+    margin-right: 0;
+}
+
 .nav-link {
     text-align: center;
 }
