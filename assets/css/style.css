@@ -79,8 +79,10 @@ p {
 
 
 /* Sections */
-section {
-    margin-bottom: 20px;
+section:before {
+    height: 54px;
+    content: "";
+    display: block;
 }
 
 /* Boostrap Card Override */
