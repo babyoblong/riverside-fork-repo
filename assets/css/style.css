@@ -150,8 +150,27 @@ footer ul li a:hover {
     color: #d0ab5c;
 }
 
+footer li,
+address,
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+footer a:link {
+    color: white;
+}
+
+footer a:hover {
+    color: #d0ab5c;
+    ;
+}
+
 /* Utilities */
 
+.fas {
+    padding: 10px;
+    color: #d0ab5c;
+}
 
 .horizontal-rule {
     border-bottom: 2px solid #d0ab5c;
