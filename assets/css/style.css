@@ -88,9 +88,8 @@ section:before {
 /* Boostrap Card Override */
 
 .card {
-    width: 100%;
-    margin-bottom: 2%;
     background-color: #d0ab5c;
+    min-height: 100%;
 }
 
 .card .card-title {
