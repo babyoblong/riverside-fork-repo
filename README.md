@@ -11,7 +11,7 @@ The justification for this project is to show what I have learned so far.
 
 During the course of the Milestone Project I will define ths steps, technologies and resources I have used to build the project. All the while keeping focus on the User Centered Design process.
 
-[View the Live Project Here](#)
+[View the Live Project Here](assets/images/responsivepages.png)
 
 ---
 
