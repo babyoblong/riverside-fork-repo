@@ -170,35 +170,13 @@ form .btn:focus {
     background-color: #d0ab5c;
 }
 
-.text--color--white {
-    color: #fff;
-}
-
 /* Footer */
 footer {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-ul {
-    padding-left: 0;
-}
-
-footer ul {
-    padding-left: 0;
-}
-
 footer ul li {
     list-style-type: none;
-}
-
-footer ul li a {
-    color: white;
-    text-decoration: none;
-
-}
-
-footer ul li a:hover {
-    color: #d0ab5c;
 }
 
 footer li,
@@ -207,41 +185,33 @@ p {
     font-family: 'Raleway', sans-serif;
 }
 
-footer a:link {
-    color: white;
-}
-
-footer a:hover {
-    color: #d0ab5c;
-}
-
-
-footer a:visited {
-    color: #d0ab5c;
-}
-
+footer a:link,
 footer a:active {
     color: white;
+    text-decoration: none;
+
 }
 
-/* Utilities */
+footer a:hover,
+footer a:visited {
+    color: #d0ab5c;
+    text-decoration: underline;
+}
+
+
+footer i:hover {
+    color: white;
+}
+
+/* Font Awesome Icons Override */
 
 .fas {
     padding: 10px;
     color: #d0ab5c;
 }
 
+/* Utilities */
 .horizontal-rule {
     border-bottom: 2px solid #d0ab5c;
     width: 100%;
-}
-
-/* Images */
-.img-thumbnail {
-    padding: .15rem;
-    background-color: #ffffff;
-    border: none;
-    border-radius: .25rem;
-    max-width: 100%;
-    height: auto;
 }
