@@ -171,6 +171,10 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+footer ul {
+    padding-left: 0;
+}
+
 footer ul li {
     list-style-type: none;
 }
