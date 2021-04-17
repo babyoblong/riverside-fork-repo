@@ -113,6 +113,22 @@ section:before {
     color: rgb(255, 255, 255, 0.8) !important;
 }
 
+.form-control:focus {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: 0 0 0 0.2rem rgb(208 171 92 / 100%);
+}
+
+form .btn:hover {
+    background-color: rgba(208, 171, 92, 0.8);
+    color: white;
+}
+
+form .btn:focus {
+    box-shadow: 0 0 0 2px rgb(255 255 255 / 100%);
+}
+
 /* Colors */
 
 .bg--color--blue {
