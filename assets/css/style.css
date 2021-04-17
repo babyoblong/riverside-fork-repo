@@ -107,6 +107,12 @@ section:before {
     object-fit: cover;
 }
 
+/*  Form */
+
+.text-muted {
+    color: rgb(255, 255, 255, 0.8) !important;
+}
+
 /* Colors */
 
 .bg--color--blue {
