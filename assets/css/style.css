@@ -102,7 +102,7 @@ a:hover {
     display: flex;
 }
 
-/* Sections */
+/* Sections - https://stackoverflow.com/questions/49331572/offset-scroll-anchor-in-html-with-bootstrap-4-fixed-navbar/49331692 */
 section:before {
     height: 54px;
     content: "";
