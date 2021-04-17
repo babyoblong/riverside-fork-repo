@@ -1,5 +1,7 @@
 # Riverside Coffeehouse - Milestone Project
 
+![alt text](assets/images/responsivepages.png "Riverside Coffeehouse Milestone Project")
+
 Introduction
 ==
 
@@ -11,10 +13,16 @@ The justification for this project is to show what I have learned so far.
 
 During the course of the Milestone Project I will define ths steps, technologies and resources I have used to build the project. All the while keeping focus on the User Centered Design process.
 
-[View the Live Project Here](assets/images/responsivepages.png)
+[View the Live Project Here](https://babyoblong.github.io/riversidecoffeehouse-ms1/)
+
+
+## Table of Contents
+[User Experience](https://babyoblong.github.io/riversidecoffeehouse-ms1/)
+[Technologies Used](https://babyoblong.github.io/riversidecoffeehouse-ms1/)
+
+
 
 ---
-
 ## User Experience Design
 
 
@@ -30,8 +38,8 @@ Our goals as a developer are to get the balance right between User Needs/Goals a
 4. Skeleton
 5. Surface
 
----
-## Strategy 
+
+### Strategy 
 ---
 
 ### Goals of the site
@@ -91,7 +99,8 @@ Taking all of the above into consideration I can move onto creating a feasibilit
 | B. Google Maps Location                   | 3           |   5       |
 | C. Contact Form                           | 4           |   5       |
 | D. Menu/Product Page(images )             | 5           |   5       |
-| E. Social Media                           | 4           |   5       |            
+| E. Social Media                           | 4           |   5       |      
+
 ### Order of priority/feasibility:-
 
 D - Menu/Product Page is critical for the business and user. It is also viable from a developer perspective.
@@ -132,13 +141,47 @@ A - Online Ordering - given the timescale for the project, technical complexity 
 
 From the above information I have decided on the following below:-
 
-- Multiple page site using a family tree structure.
+- Single page site using a family tree structure. (Deviation)
 - Header/Navigation
     - Where appropriate(mobile, tablet) a Hamburger icon will be used to allow navigation.
 - Seperate pages 
     - For external pages/documents will use target=_blank.
     - Will utilize the header/navigation on the about page across all pages.
 - Menus 
-    - Dropdown with links to their downloadable menus  will be appropriate.
+    - Dropdown with links to their downloadable menus will be appropriate.
 - Footer 
     - Social media icons will open in a new window.
+
+## Skeleton
+
+
+## Technologies Used
+---
+
+
+### Languages 
+
+- HTML5
+- CSS3
+
+
+### Frameworks, Libraries and Others
+
+- Cloudflare CDN - This is used to deliver the Bootstrap Framework, jQuery plugins & Popper.js.
+- Bootstrap 4.6.0 - Bootstrap was used for the responsive layout, jumbotron, navbar, form and spacing utilities.
+- jQuery - The collapsible Hamburger menu in Bootstrap requires this to function.
+- popper.js - The collapsible Hamburger menu in Bootstrap requires this to function.
+- CANVA - Was used to bring a barebones menu to the Food/Drinks menus.
+- Google Fonts - Google Fonts was used to import 'Raleway' and 'Oswald' fonts.
+- Font Awesome - icons were used alongside About, Student Discount, Free-Wifi and Quiet Time headers. It was also used in the social icons in the footer.
+- Git - Git was used for the version control software.
+- Github - Used to host/clone project files.
+- GitPod - GitPod was used to develop the project from the ground, up in the cloud-based environment. 
+- TinyJPG - resized images to reduce bandwidth and increase site performance.
+- Balsamiq - used to create Wireframes for the project.
+- VSCode - Ran out of Gitpod hours and moved to VSCode to keep up with development.
+- Favicon.io - favicon generator used to create project favicon.
+- MDN - Mozilla Developer Network was used to clarify certain subjects.
+- Ebook - http://www.jjg.net/elements/pdf/elements_ch02.pdf helped with the explanation of UX Design and UX Planes.
+- Coolors.co - this site helped with the color scheme which is a blue(Space Cadet) and gold.
+
