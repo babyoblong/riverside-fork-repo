@@ -26,7 +26,32 @@ p {
     font-family: 'Raleway', sans-serif;
 }
 
+/* Links  */
+a:link {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(208 171 92 / 50%)
+}
+
+a:visited {
+    color: #d0ab5c;
+}
+
+a:active {
+    color: white;
+}
+
 /* Navbar */
+
+nav a:link,
+a:visited,
+a:active,
+a:hover {
+    text-decoration: none;
+}
 
 .navbar-dark .navbar-brand .navbar-brand-text {
     text-decoration: underline;
@@ -55,6 +80,9 @@ p {
     color: #000;
 }
 
+.dropdown-item:visited {
+    color: #212529;
+}
 
 .dropdown-item:hover {
     color: #16181b;
@@ -190,6 +218,10 @@ footer a:hover {
 
 footer a:visited {
     color: #d0ab5c;
+}
+
+footer a:active {
+    color: white;
 }
 
 /* Utilities */
