@@ -186,7 +186,11 @@ footer a:link {
 
 footer a:hover {
     color: #d0ab5c;
-    ;
+}
+
+
+footer a:visited {
+    color: #d0ab5c;
 }
 
 /* Utilities */
