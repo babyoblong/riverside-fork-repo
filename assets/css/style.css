@@ -24,24 +24,6 @@ p {
     font-family: 'Raleway', sans-serif;
 }
 
-/* Links  */
-a:link {
-    color: white;
-    text-decoration: underline;
-}
-
-a:hover {
-    color: rgb(208 171 92 / 50%)
-}
-
-a:visited {
-    color: #d0ab5c;
-}
-
-a:active {
-    color: white;
-}
-
 /* Navbar */
 nav a:link,
 a:visited,
