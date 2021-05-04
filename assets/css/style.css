@@ -214,3 +214,11 @@ footer i:hover {
     border-bottom: 2px solid #d0ab5c;
     width: 100%;
 }
+
+/* Media Query - centers dropdown-item text on screens smaller than 768 */
+
+@media screen and (max-width: 768px) {
+    .dropdown-item {
+      text-align: center;
+    }
+  }
