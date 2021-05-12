@@ -13,13 +13,11 @@ The justification for this project is to show what I have learned so far.
 
 During the Milestone Project I will define the steps, technologies, and resources I have used to build the project. All the while keeping the focus on the User-Centered Design process.
 
-[View the Live Project Here](https://babyoblong.github.io/riversidecoffeehouse-ms1/)
+[View the Live Project Here](https://babyoblong.github.io/riverside-fork-repo/)
 
 
 
 ## User Experience Design
----
-
 
 
 Part of the User-Centric Frontend course touches upon Jesse James Garrett's, "The Elements of User Experience". Originally intended for the web, the strategies outlined in his book "The Elements of User Experience" were adapted in other fields like software development and industrial design.
@@ -35,7 +33,6 @@ Our goals as a developer are to get the balance right between User Needs/Goals a
 
 
 ## Strategy 
----
 
 ### Goals of the site
 
@@ -60,14 +57,14 @@ Families, as the father of two very hungry, almost teenagers we are constantly l
 
 ### User Stories
 
-First Time Visitor Goals
+#### First Time Visitor Goals
 
 - As a first-time visitor I want to be able to understand what the purpose of the site is.
 - As a first-time visitor I want to be able to navigate easily without confusion.
 - As a first-time visitor I want to be able to view some products.
 - As a first-time visitor I want to be able to view location information/opening times.
 
-Returning Visitor Goals 
+#### Returning Visitor Goals 
 
 - As a returning visitor I want to be able to contact the owners of the business using both contact forms and external social media.
 - As a returning visitor I want to be able to access a downloadable menu.
@@ -109,7 +106,7 @@ A - Online Ordering - given the timescale for the project, technical complexity 
 
 
 ## Scope
----
+
 - What they say they need?
     - The client wants a professional, mobile-friendly, clean site that would start their journey into the online business space. 
     - The client wants to add social media to their site via a link.
@@ -133,7 +130,7 @@ A - Online Ordering - given the timescale for the project, technical complexity 
 
 
 ## Structure
----
+
 From the above information I have decided on the below:-
 
 - Single page site using a family tree structure. (Deviation)
@@ -149,7 +146,7 @@ From the above information I have decided on the below:-
 
 
 ## Skeleton
----
+
 Below are the links to the intial draft of the wireframes that I had originally created for the project. I deviated from the multi page layout as I felt the flow of information was going to be disjointed.
 
 [Mobile](assets/docs/riversidemobile.pdf)
@@ -174,7 +171,6 @@ Given that this was my first time using Wireframing tools there are a lot of thi
 
 
 ## Surface
----
 
 - Features
     - Navbar 
@@ -196,7 +192,6 @@ Given that this was my first time using Wireframing tools there are a lot of thi
 
 
 ## Testing
----
 
 Testing of the site consisted of the below:-
 
@@ -220,8 +215,6 @@ Testing of the site consisted of the below:-
 
 
 ## Technologies Used
----
-
 
 ### Languages 
 
@@ -231,29 +224,29 @@ Testing of the site consisted of the below:-
 
 ### Frameworks, Libraries and Others
 
-- Cloudflare CDN - This is used to deliver the Bootstrap Framework, jQuery plugins & Popper.js.
-- Bootstrap 4.6.0 - Bootstrap was used for the responsive layout, jumbotron, navbar, form and spacing utilities.
-- jQuery - The collapsible Hamburger menu in Bootstrap requires this to function.
-- popper.js - The collapsible Hamburger menu in Bootstrap requires this to function.
-- CANVA - Was used to bring a barebones menu to the Food/Drinks menus.
-- Google Fonts - Google Fonts was used to import 'Raleway' and 'Oswald' fonts.
-- Font Awesome - icons were used alongside About, Student Discount, Free-Wifi and Quiet Time headers. It was also used in the social icons in the footer.
-- Git - Git was used for the version control software.
-- Github - Used to host/clone project files.
-- GitPod - GitPod was used to develop the project from the ground, up in the cloud-based environment. 
-- TinyJPG - resized images to reduce bandwidth and increase site performance.
-- Balsamiq - used to create Wireframes for the project.
-- VSCode - Ran out of Gitpod hours and moved to VSCode to keep up with development.
-- Favicon.io - favicon generator used to create project favicon.
-- MDN - Mozilla Developer Network was used to clarify certain subjects.
-- Ebook - http://www.jjg.net/elements/pdf/elements_ch02.pdf helped with the explanation of UX Design and UX Planes.
-- Coolors.co - this site helped with the color scheme which is a blue(Space Cadet) and gold.
-- Unsplash - photos used across the site are all from Unsplash.
-- Grammarly - to try and counteract my poor spelling & grammar.
+- [Cloudflare CDN ](https://www.cloudflare.com/en-gb/cdn/)- This is used to deliver the Bootstrap Framework, jQuery plugins & Popper.js.
+- [Bootstrap 4.6.0](https://getbootstrap.com/docs/4.6/getting-started/introduction) - Bootstrap was used for the responsive layout, jumbotron, navbar, form and spacing utilities.
+- [jQuery](https://jquery.com/) - The collapsible Hamburger menu in Bootstrap requires this to function.
+- [popper.js](https://popper.js.org/) - The collapsible Hamburger menu in Bootstrap requires this to function.
+- [CANVA](https://www.canva.com/en_gb/) - Was used to bring a barebones menu to the Food/Drinks menus.
+- [Google Fonts](https://fonts.google.com/) - Google Fonts was used to import 'Raleway' and 'Oswald' fonts.
+- [Font Awesome](https://fontawesome.com/)- icons were used alongside About, Student Discount, Free-Wifi and Quiet Time headers. It was also used in the social icons in the footer.
+- [Git](https://git-scm.com/) - Git was used for the version control software.
+- [Github](https://github.com/) - Used to host/clone project files.
+- [GitPod](https://gitpod.io/) - GitPod was used to develop the project from the ground, up in the cloud-based environment. 
+- [TinyJPG](https://tinyjpg.com/) - resized images to reduce bandwidth and increase site performance.
+- [Balsamiq](https://balsamiq.com/) - used to create Wireframes for the project.
+- [VSCode](https://code.visualstudio.com/) - Ran out of Gitpod hours and moved to VSCode to keep up with development.
+- [Favicon.io](https://favicon.io/) - favicon generator used to create project favicon.
+- [MDN](https://developer.mozilla.org/en-US/) - Mozilla Developer Network was used to clarify certain subjects.
+- [Ebook](http://www.jjg.net/elements/pdf/elements_ch02.pdf) - helped with the explanation of UX Design and UX Planes.
+- [Coolors.co](https://coolors.co/) - this site helped with the color scheme which is a blue(Space Cadet) and gold.
+- [Unsplash](https://unsplash.com/) - photos used across the site are all from Unsplash.
+- [Grammarly](https://www.grammarly.com/) - to try and counteract my poor spelling & grammar.
 
 
 ## Deployment 
----
+
 The project has been deployed on Github pages using the process below.
 
 ### Deploying to Github Pages
@@ -282,14 +275,11 @@ Forking a repository allows you to copy the repository so that you can make chan
 - Type git clone and paste the link shown earlier and hit enter.
 - This can also be done in VSCode.
 
-
 ### Known Issues
 
 There are currently no known issues that I am aware of.
 
-
 ## Credits
----
 
 - Stackoverflow 
     - Providing the code needed to stop the obscuring of headers when using a fixed navbar.
@@ -307,7 +297,7 @@ There are currently no known issues that I am aware of.
     - For listening to the ramblings of a madman.
 
 - My Kids
-    - Accepting the fact that Daddy had work to do and trying to keep the noise to a minimum.
+    - Accepting the fact that Daddy had work to do, and trying to keep the noise to a minimum.
 
 
 
